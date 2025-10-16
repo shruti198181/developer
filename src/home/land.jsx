@@ -1,214 +1,3 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Container } from 'react-bootstrap'; // ✅ MUST IMPORT THIS
-// import DeveloperDonutChart from './chart'; // updated import
-
-// export default function HeroSection() {
-//   return (
-//     <>
-//       {/* HERO SECTION */}
-//       <div
-//         className="container-fluid"
-//         style={{
-//           height: "100vh",
-//           backgroundColor: "#E7FCE5",
-//           display: "flex",
-//           alignItems: "center",
-//           padding: "0 50px",
-//         }}
-//       >
-//         <div className="row w-100 align-items-center">
-//           {/* LEFT TEXT COLUMN */}
-//           <div className="col-md-6 col-sm-12 text-start">
-//             <h1
-//               style={{
-//                 fontSize: "50px",
-//                 fontWeight: "700",
-//                 lineHeight: "1.2",
-//                 color: "#000",
-//               }}
-//             >
-//               Build Your Dream Tech Team
-//               <br />
-//               <span style={{ color: "#0E8A00" }}>in Just 48 Hours</span>
-//             </h1>
-
-//             <p className="mt-4 fs-5 text-secondary">
-//               Flexible to match your timezone and project needs
-//             </p>
-//             <p className="fs-5 text-secondary">
-//               Clean code, pixel-perfect design, and responsive layouts
-//             </p>
-//             <p className="fs-5 text-secondary mb-4">Let’s Work Together</p>
-
-//             <button
-//               className="btn btn-success px-4 py-2 fw-semibold"
-//               style={{ borderRadius: "8px", fontSize: "18px" }}
-//             >
-//               Hire Developers
-//             </button>
-//           </div>
-
-//           {/* RIGHT IMAGE COLUMN */}
-//           <div
-//             className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center"
-//             style={{ height: "100vh" }}
-//           >
-//             <img
-//               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1BLRimQNatgYjAQ17qOVBF09FgWhmFaed4Q&s"
-//               alt="Team working"
-//               className="rounded mt-5"
-//               style={{
-//                 width: "100%",
-//                 height: "80vh",
-//                 objectFit: "cover",
-//                 borderLeft: "8px solid #BFFF00",
-//                 boxShadow: "0 0 25px rgba(0,0,0,0.2)",
-//               }}
-//             />
-//           </div>
-//         </div>
-//       </div>
-
-//       {/* BELOW SECTION WITH BACKGROUND COLOR */}
-//       <div
-//         className="w-100"
-//         style={{
-//           backgroundColor: "#4bf2a4ff",
-//           height: "200px",
-//           display: "flex",
-//           alignItems: "center",
-//         }}
-//       >
-// <Container className="py-5">
-//   <div className="row justify-content-center">
-//     {[
-//       {
-//         src: "https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/63b5a1ec88dfb02dcee44e29_48.png",
-//         text: "Profiles\n48 Hrs",
-//       },
-//       {
-//         src: "https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/63b5a2161e83a3c7b233afed_re.png",
-//         text: "Pre-Vetted\nProfiles",
-//       },
-//       {
-//         src: "https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/63b5a252603862dad30cf874_7.png",
-//         text: "7 Days\nRisk-Free Trial",
-//       },
-//       {
-//         src: "https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/63bc10c304cd88addd66ee10_Time-Zone.png",
-//         text: "Time Zone\nAligned",
-//       },
-//     ].map((item, index) => (
-//       <div key={index} className="col-6 col-md-3 text-center mb-4">
-//         <img
-//           src={item.src}
-//           alt={`Logo ${index + 1}`}
-//           style={{ width: "150px", height: "auto", paddingTop: "30px" }}
-//         />
-//         <div
-//           className="fw-semibold text-light"
-//           style={{ marginTop: "10px", lineHeight: "1.4" }}
-//         >
-//           {item.text.split("\n").map((line, i) => (
-//             <div key={i}>{line}</div>
-//           ))}
-//         </div>
-//       </div>
-//     ))}
-//   </div>
-// </Container>
-
-//       </div>
-
-
-//       <div className="row align-items-center my-5">
-//         <div className="col-md-6">
-//           <div style={{ marginLeft: "200px", fontSize: "25px", fontWeight: "bold" }}>
-//             Build Your Dream Team With Expertise
-//             <br /> in Every Tech Stack
-//           </div>
-//           <div style={{ marginLeft: "200px" }}>
-//             From Node to Java, AWS to Airtable, we will get the right
-//             <br />
-//             skilled engineer to join your organization
-//           </div>
-//         </div>
-//         <div className="col-md-6 mt-5">
-//           <img
-//             src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/642d29acf5ea22b55f682acc_1.png"
-//             style={{ width: "100%", maxWidth: "500px", height: "auto" }}
-//             alt="Example"
-//           />
-//         </div>
-//       </div>
-//       {/* <div style={{ fontSize: "30px", textAlign: "center", fontWeight: "bold",          marginTop: "50px",   
-          
-//  }}>
-//         1000 +<br />
-//         Developers Available on Bench
-//       </div>
-//       <div
-//         style={{
-//           backgroundColor: "white",
-//           padding: "20px 20px",
-//           display: "flex",
-//           marginBottom:"200px",
-//           justifyContent: "center",
-//         }}
-//       >
-//         <div style={{ width: "350px", height: "350px" }}>
-//           <DeveloperDonutChart />
-//         </div>
-//       </div> */}
-//             {/* CENTER TEXT SECTION */}
-// {/* CENTERED TEXT + DONUT CHART SECTION (NO GAP BELOW) */}
-// {/* BOTTOM SECTION — TEXT + DONUT CHART */}
-// <div
-//   style={{
-//     backgroundColor: "white",
-//     width: "100%",
-//     display: "flex",
-//     flexDirection: "column",
-//     justifyContent: "center",
-//     alignItems: "center",
-//     padding: 0,        // no padding
-//     margin: 0,         // no margin
-//   }}
-// >
-//   {/* TEXT */}
-//   <div
-//     style={{
-//       fontSize: "30px",
-//       fontWeight: "700",
-//       lineHeight: "1.3",
-//       textAlign: "center",
-//       margin: "30px 0 10px 0",  // only small spacing above and between text/chart
-//       padding: 0,
-//     }}
-//   >
-//     1000+ <br />
-//     Developers Available on Bench
-//   </div>
-
-//   {/* DONUT CHART */}
-//   <div
-//     style={{
-//       width: "300px",
-//       height: "300px",
-//       display: "flex",
-//       justifyContent: "center",
-//       alignItems: "center",
-//       margin: 0,
-//       marginTop :"100px",
-//     }}
-//   >
-//     <DeveloperDonutChart />
-//   </div>
-// </div>
-
-//     </>
-//   );
-// }
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import DeveloperDonutChart from './chart';
@@ -435,11 +224,213 @@ export default function HeroSection() {
 <h3 className=' text-center pt-5'>Hire The Best, Leave The Rest</h3>
 <div className='text-center mb-5'>Our 4-step hiring process to hire top software developers from India.</div>
 <div className='row justify-content-center align-items-center text-center g-3'>
-  <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/630635487f127e588b4d9f23_step1.webp" style={{width:"150px"}}/></div>
-  <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/6306354a4aaa9053573eda9f_step2.webp" style={{width:"150px"}}/></div>
-  <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/6306354b5777201a172da310_step3.webp" style={{width:"150px"}}/></div>
- <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/6306354b4bcca842be34aad2_step4.webp" style={{width:"150px"}}/></div>
+  <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/630635487f127e588b4d9f23_step1.webp" style={{width:"150px"}}/>
+ <span style={{display:"inline-block",width:"200px", height:"100px",padding:"20px",fontSize:"18px",border:"1px solid #278257ff", borderRadius:"10px",backgroundColor:"#adf6d4ff"}}>Share Your<br/> Requirement</span>
+  </div>
+  <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/6306354a4aaa9053573eda9f_step2.webp" style={{width:"150px"}}/>
+   <span style={{display:"inline-block",width:"200px", height:"100px",padding:"20px",fontSize:"18px", borderRadius:"10px",border:"1px solid #278257ff",backgroundColor:"#adf6d4ff"}}>Shortlisted profiles<br/> share with you</span>
+  </div>
+  <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/6306354b5777201a172da310_step3.webp" style={{width:"150px"}}/>
+   <span style={{display:"inline-block",width:"200px", height:"100px",padding:"20px",fontSize:"18px", borderRadius:"10px",border:"1px solid #278257ff",backgroundColor:"#adf6d4ff"}}>Select the right <br/>candidate by you</span>
+  </div>
+ <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/6306354b4bcca842be34aad2_step4.webp" style={{width:"150px"}}/>
+  <span style={{display:"inline-block",width:"200px", height:"100px",padding:"20px",fontSize:"18px", borderRadius:"10px",backgroundColor:"#adf6d4ff",border:"1px solid #278257ff"}}>Swift onboarding &<br/> Support</span>
+ </div>
 </div>
+
+<div className="d-flex justify-content-center mt-5">
+  <button className="bg-success text-light px-4 py-2 border-0 rounded">
+    HIRE DEVELOPERS
+  </button>
+</div>
+<div
+  style={{ backgroundColor: "#e6f7f9ff", width: "100%", minHeight: "750px" }}
+  className="mt-5 d-flex align-items-center"
+>
+  <Container>
+    <Row className="align-items-center">
+      {/* LEFT COLUMN: 4 BOXES (2x2 GRID) */}
+      <Col
+        md={6}
+        className="d-grid justify-content-center"
+        style={{
+          gridTemplateColumns: "repeat(2, 1fr)",
+          gap: "20px",
+        }}
+      >
+        {[
+          {
+            img: "https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/63b6cd274cd6e25320aebd2f_1.png",
+            text: "97% <br/>Success Rate",
+          },
+          {
+            img: "https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/63b6cf07076a331456aec058_2.png",
+            text: "100% <br/>Full Time",
+          },
+          {
+            img: "https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/63b6cf1ca775aaaf81932cf5_3.png",
+            text: "4+ <br/>Daily Overlap",
+          },
+          {
+            img: "https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/63b6cf5dd3adb49b79b16654_4.png",
+            text: "&lt;5 Days <br/>Or Less To Hire",
+          },
+        ].map((box, index) => (
+          <div
+            key={index}
+            className="bg-light d-flex flex-column justify-content-center align-items-center p-3"
+            style={{
+              borderRadius: "10px",
+              border: "1px solid #ccc",
+              textAlign: "center",
+              boxShadow: "0px 2px 8px rgba(0,0,0,0.1)",
+            }}
+          >
+            <img
+              src={box.img}
+              alt={`icon-${index}`}
+              style={{ width: "70px", height: "70px" }}
+            />
+            <span
+              style={{
+                fontWeight: "600",
+                marginTop: "10px",
+              }}
+              dangerouslySetInnerHTML={{ __html: box.text }}
+            ></span>
+          </div>
+        ))}
+      </Col>
+
+      {/* RIGHT COLUMN: TEXT CONTENT */}
+      <Col
+        md={6}
+        className="d-flex flex-column justify-content-center"
+        style={{ paddingLeft: "40px" }}
+      >
+        <h5 style={{ color: "#28a745", fontWeight: "600" }}>Our Promise</h5>
+        <h2 style={{ fontWeight: "700", lineHeight: "1.3" }}>
+          Get The Best Talents From
+          <br />
+          Our Talent Cloud
+        </h2>
+        <p className="text-secondary mt-3 fs-5">
+          We match and manage the best software engineers from
+          <br /> our talent cloud to build your company’s long-term success.
+        </p>
+      </Col>
+    </Row>
+  </Container>
+</div>
+
+ 
+<div
+  style={{
+    backgroundImage:
+      "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxsPo9w-k_yHzH0ZX1D87kCsM3SZzIFRiIBw&s')",
+    backgroundPosition: "top",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    minHeight: "900px",
+    width: "100vw",
+  }}
+>
+  <h1 className="text-light text-center pt-5">About TALN</h1>
+
+  {/* Parent wrapper for boxes and button */}
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      gap: "30px", // spacing between boxes row and button
+      padding: "20px",
+    }}
+  >
+    {/* Row of boxes */}
+    <div className="d-flex flex-wrap justify-content-center gap-4">
+      {/* BOX 1 */}
+      <div
+        style={{
+          width: "350px",
+          height: "230px",
+          backgroundColor: "black",
+          borderRadius: "30px",
+          color: "white",
+          padding: "20px",
+        }}
+      >
+        <span style={{ fontSize: "25px", color: "lightgreen" }}>15+ Yrs<br /></span>
+        <span style={{ fontSize: "15px", color: "white" }}>
+          Experience TALN.cloud was founded by<br />
+          experienced entrepreneurs who <br />
+          successfully ran an IT Services company for a decade and a half.
+        </span>
+      </div>
+
+      {/* BOX 2 */}
+      <div
+        style={{
+          width: "350px",
+          height: "230px",
+          backgroundColor: "black",
+          borderRadius: "30px",
+          color: "white",
+          padding: "20px",
+        }}
+      >
+        <span style={{ fontSize: "25px", color: "lightgreen" }}>
+          1000+ <br /> IT Talents <br />
+        </span>
+        <span style={{ fontSize: "15px", color: "white" }}>
+          TALN has built a database of 1000+ pre-vetted<br />
+          resources across different technologies.<br />
+          Who are ready to be deployed immediately<br />
+          on your assignments.
+        </span>
+      </div>
+
+      {/* BOX 3 */}
+      <div
+        style={{
+          width: "350px",
+          height: "230px",
+          backgroundColor: "black",
+          borderRadius: "30px",
+          color: "white",
+          padding: "20px",
+        }}
+      >
+        <span style={{ fontSize: "25px", color: "lightgreen" }}>
+          250+ <br /> Partners <br />
+        </span>
+        <span style={{ fontSize: "15px", color: "white" }}>
+          Finding top programmers is a <br />
+          massive pain. Leasing bench <br />
+          resources from Partner IT <br />
+          companies is our USP, and the <br />
+          turnaround time is just 1–5 days.
+        </span>
+      </div>
+    </div>
+
+    {/* Centered button below boxes */}
+    <button
+      style={{
+        backgroundColor: "lightgreen",
+        color: "white",
+        padding: "10px 25px",
+        border: "none",
+        borderRadius: "8px",
+        fontSize: "18px",
+        cursor: "pointer",
+      }}
+    >
+      HIRE DEVELOPERS
+    </button>
+  </div>
+</div>
+    
 </div>
   );
 }

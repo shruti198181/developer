@@ -104,7 +104,7 @@ const DeveloperBenchSection = () => {
           <Doughnut data={data} options={options} />
         </div>
       </div>
-      <button className="bg-success w-75 h-25 mt-2">Technologies</button>
+      <button className="bg-success w-75 h-25 mt-2 text-light">Technologies</button>
     </section>
   );
 };
