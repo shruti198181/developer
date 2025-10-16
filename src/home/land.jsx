@@ -331,7 +331,6 @@ export default function HeroSection() {
         </Container>
       </section>
 
-      {/* TECH TEAM SECTION */}
       <section style={{ padding: '60px 15px' }}>
         <Container>
           <Row className="align-items-center text-center text-md-start g-4">
@@ -366,37 +365,81 @@ export default function HeroSection() {
           </Row>
         </Container>
       </section>
-
-      {/* DONUT CHART SECTION */}
-      <section
-        style={{
-          backgroundColor: '#fff',
-          textAlign: 'center',
-          padding: '60px 15px',
-          overflow: 'hidden',
-        }}
-      >
-        <Container>
-          <h2
-            style={{
-              fontSize: 'clamp(22px, 3vw, 30px)',
-              fontWeight: '700',
-              marginBottom: '30px',
-            }}
-          >
-            1000+ <br />
-            Developers Available on Bench
-          </h2>
-          <div
-            style={{
-              maxWidth: '300px',
-              margin: '0 auto',
-            }}
-          >
-            <DeveloperDonutChart />
-          </div>
-        </Container>
-      </section>
+<section
+  style={{
+    backgroundColor: "#fff",
+    textAlign: "center",
+    padding: "10px 0", 
+    marginTop: "-10px", 
+  }}
+>
+  <Container>
+    <div
+      style={{
+        maxWidth: "260px",
+        margin: "0 auto",
+      }}
+    >
+      <DeveloperDonutChart />
     </div>
+  </Container>
+</section>
+<div
+  className="container-fluid py-4"
+  style={{ backgroundColor: "#e6f7f9ff" }}
+>
+  <div className="row justify-content-center align-items-center text-center g-3">
+    <h3 className='text-center '>Trusted By Companies</h3>
+    <div className="col-6 col-sm-4 col-md-2">
+      <img
+        src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/631b3372bdadc49be9414aad_logo1-2.webp"
+        alt="Logo 1"
+        className="img-fluid"
+        style={{ maxWidth: "150px" }}
+      />
+    </div>
+    <div className="col-6 col-sm-4 col-md-2">
+      <img
+        src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/63bd80f091b1708e9615430d_logo5.png"
+        alt="Logo 2"
+        className="img-fluid"
+        style={{ maxWidth: "150px" }}
+      />
+    </div>
+    <div className="col-6 col-sm-4 col-md-2">
+      <img
+        src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/631b396e8e8cbd3fc0929c4a_logo2-1.webp"
+        alt="Logo 3"
+        className="img-fluid"
+        style={{ maxWidth: "150px" }}
+      />
+    </div>
+    <div className="col-6 col-sm-4 col-md-2">
+      <img
+        src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/631b396ff0282f26455f2088_logo3-1.webp"
+        alt="Logo 4"
+        className="img-fluid"
+        style={{ maxWidth: "150px" }}
+      />
+    </div>
+    <div className="col-6 col-sm-4 col-md-2">
+      <img
+        src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/631b3971c2793a24268b670a_logo4-1.webp"
+        alt="Logo 5"
+        className="img-fluid"
+        style={{ maxWidth: "150px" }}
+      />
+    </div>
+  </div>
+</div> 
+<h3 className=' text-center pt-5'>Hire The Best, Leave The Rest</h3>
+<div className='text-center mb-5'>Our 4-step hiring process to hire top software developers from India.</div>
+<div className='row justify-content-center align-items-center text-center g-3'>
+  <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/630635487f127e588b4d9f23_step1.webp" style={{width:"150px"}}/></div>
+  <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/6306354a4aaa9053573eda9f_step2.webp" style={{width:"150px"}}/></div>
+  <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/6306354b5777201a172da310_step3.webp" style={{width:"150px"}}/></div>
+ <div className='col-6 col-sm-4 col-md-2'><img src="https://cdn.prod.website-files.com/62fe7df122d31a02e9e1bd35/6306354b4bcca842be34aad2_step4.webp" style={{width:"150px"}}/></div>
+</div>
+</div>
   );
 }
